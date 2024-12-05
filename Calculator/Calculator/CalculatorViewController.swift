@@ -72,8 +72,8 @@ class CalculatorViewController: UIViewController {
             }
             
             switch sender.tag {
-                
-            case 12:
+            case 12:                print("Second vcommit")
+
                 operatorUsed = 12
                 displayText = "\(firstNumber) +"
             case 13:
@@ -104,6 +104,7 @@ class CalculatorViewController: UIViewController {
                     label.text = String(firstNumber + secondNumber)
                 case 13:
                     label.text = String(firstNumber - secondNumber)
+                    
                 case 14:
                     label.text = String(firstNumber * secondNumber)
                 case 15:
