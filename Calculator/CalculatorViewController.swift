@@ -102,6 +102,7 @@ class CalculatorViewController: UIViewController {
                 switch operatorUsed {
                 case 12:
                     label.text = String(firstNumber + secondNumber)
+                    print("first git push testing")
                 case 13:
                     label.text = String(firstNumber - secondNumber)
                 case 14:
