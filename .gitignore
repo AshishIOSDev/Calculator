@@ -1,0 +1,36 @@
+# Xcode specific files
+.DS_Store
+.idea/
+.vscode/
+build/
+DerivedData/
+
+# Swift Package Manager
+.swiftpm/
+Packages/
+Package.pins
+Package.resolved
+
+# Xcode User Data
+xcuserdata/
+*.xccheckout
+
+# Archive files
+*.xcarchive
+
+# iOS Simulator builds
+*.app
+*.ipa
+*.dSYM
+
+# CocoaPods (if used)
+Pods/
+
+# Carthage (if used)
+Carthage/
+
+# SwiftLint (if used)
+.swiftlint.yml
+
+# Ignore xcworkspace if not needed
+# .xcworkspace
